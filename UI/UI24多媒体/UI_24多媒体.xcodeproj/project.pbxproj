@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B0A0031C964B8F00FD1F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0A0021C964B8F00FD1F64 /* main.m */; };
+		49B0A0061C964B8F00FD1F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0A0051C964B8F00FD1F64 /* AppDelegate.m */; };
+		49B0A0091C964B8F00FD1F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0A0081C964B8F00FD1F64 /* ViewController.m */; };
+		49B0A00C1C964B8F00FD1F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B0A00A1C964B8F00FD1F64 /* Main.storyboard */; };
+		49B0A00E1C964B8F00FD1F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B0A00D1C964B8F00FD1F64 /* Assets.xcassets */; };
+		49B0A0111C964B8F00FD1F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B0A00F1C964B8F00FD1F64 /* LaunchScreen.storyboard */; };
+		49B0A01C1C964B8F00FD1F64 /* UI_24___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0A01B1C964B8F00FD1F64 /* UI_24___Tests.m */; };
+		49B0A0271C964B8F00FD1F64 /* UI_24___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B0A0261C964B8F00FD1F64 /* UI_24___UITests.m */; };
+		49B0A0351C964C6F00FD1F64 /* 蔡琴 - 爱断情伤.wav in Resources */ = {isa = PBXBuildFile; fileRef = 49B0A0341C964C6F00FD1F64 /* 蔡琴 - 爱断情伤.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B0A0181C964B8F00FD1F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B09FF61C964B8E00FD1F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B09FFD1C964B8E00FD1F64;
+			remoteInfo = "UI_24多媒体";
+		};
+		49B0A0231C964B8F00FD1F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B09FF61C964B8E00FD1F64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B09FFD1C964B8E00FD1F64;
+			remoteInfo = "UI_24多媒体";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49B09FFE1C964B8F00FD1F64 /* UI_24多媒体.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI_24多媒体.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B0A0021C964B8F00FD1F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B0A0041C964B8F00FD1F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49B0A0051C964B8F00FD1F64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49B0A0071C964B8F00FD1F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49B0A0081C964B8F00FD1F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49B0A00B1C964B8F00FD1F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B0A00D1C964B8F00FD1F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B0A0101C964B8F00FD1F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B0A0121C964B8F00FD1F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B0A0171C964B8F00FD1F64 /* UI_24多媒体Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI_24多媒体Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B0A01B1C964B8F00FD1F64 /* UI_24___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_24___Tests.m"; sourceTree = "<group>"; };
+		49B0A01D1C964B8F00FD1F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B0A0221C964B8F00FD1F64 /* UI_24多媒体UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI_24多媒体UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B0A0261C964B8F00FD1F64 /* UI_24___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI_24___UITests.m"; sourceTree = "<group>"; };
+		49B0A0281C964B8F00FD1F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B0A0341C964C6F00FD1F64 /* 蔡琴 - 爱断情伤.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "蔡琴 - 爱断情伤.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B09FFB1C964B8E00FD1F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A0141C964B8F00FD1F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A01F1C964B8F00FD1F64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B09FF51C964B8E00FD1F64 = {
+			isa = PBXGroup;
+			children = (
+				49B0A0001C964B8F00FD1F64 /* UI_24多媒体 */,
+				49B0A01A1C964B8F00FD1F64 /* UI_24多媒体Tests */,
+				49B0A0251C964B8F00FD1F64 /* UI_24多媒体UITests */,
+				49B09FFF1C964B8F00FD1F64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B09FFF1C964B8F00FD1F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B09FFE1C964B8F00FD1F64 /* UI_24多媒体.app */,
+				49B0A0171C964B8F00FD1F64 /* UI_24多媒体Tests.xctest */,
+				49B0A0221C964B8F00FD1F64 /* UI_24多媒体UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B0A0001C964B8F00FD1F64 /* UI_24多媒体 */ = {
+			isa = PBXGroup;
+			children = (
+				49B0A0341C964C6F00FD1F64 /* 蔡琴 - 爱断情伤.wav */,
+				49B0A0041C964B8F00FD1F64 /* AppDelegate.h */,
+				49B0A0051C964B8F00FD1F64 /* AppDelegate.m */,
+				49B0A0071C964B8F00FD1F64 /* ViewController.h */,
+				49B0A0081C964B8F00FD1F64 /* ViewController.m */,
+				49B0A00A1C964B8F00FD1F64 /* Main.storyboard */,
+				49B0A00D1C964B8F00FD1F64 /* Assets.xcassets */,
+				49B0A00F1C964B8F00FD1F64 /* LaunchScreen.storyboard */,
+				49B0A0121C964B8F00FD1F64 /* Info.plist */,
+				49B0A0011C964B8F00FD1F64 /* Supporting Files */,
+			);
+			path = "UI_24多媒体";
+			sourceTree = "<group>";
+		};
+		49B0A0011C964B8F00FD1F64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B0A0021C964B8F00FD1F64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49B0A01A1C964B8F00FD1F64 /* UI_24多媒体Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49B0A01B1C964B8F00FD1F64 /* UI_24___Tests.m */,
+				49B0A01D1C964B8F00FD1F64 /* Info.plist */,
+			);
+			path = "UI_24多媒体Tests";
+			sourceTree = "<group>";
+		};
+		49B0A0251C964B8F00FD1F64 /* UI_24多媒体UITests */ = {
+			isa = PBXGroup;
+			children = (
+				49B0A0261C964B8F00FD1F64 /* UI_24___UITests.m */,
+				49B0A0281C964B8F00FD1F64 /* Info.plist */,
+			);
+			path = "UI_24多媒体UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B09FFD1C964B8E00FD1F64 /* UI_24多媒体 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B0A02B1C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体" */;
+			buildPhases = (
+				49B09FFA1C964B8E00FD1F64 /* Sources */,
+				49B09FFB1C964B8E00FD1F64 /* Frameworks */,
+				49B09FFC1C964B8E00FD1F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI_24多媒体";
+			productName = "UI_24多媒体";
+			productReference = 49B09FFE1C964B8F00FD1F64 /* UI_24多媒体.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B0A0161C964B8F00FD1F64 /* UI_24多媒体Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B0A02E1C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体Tests" */;
+			buildPhases = (
+				49B0A0131C964B8F00FD1F64 /* Sources */,
+				49B0A0141C964B8F00FD1F64 /* Frameworks */,
+				49B0A0151C964B8F00FD1F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B0A0191C964B8F00FD1F64 /* PBXTargetDependency */,
+			);
+			name = "UI_24多媒体Tests";
+			productName = "UI_24多媒体Tests";
+			productReference = 49B0A0171C964B8F00FD1F64 /* UI_24多媒体Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49B0A0211C964B8F00FD1F64 /* UI_24多媒体UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B0A0311C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体UITests" */;
+			buildPhases = (
+				49B0A01E1C964B8F00FD1F64 /* Sources */,
+				49B0A01F1C964B8F00FD1F64 /* Frameworks */,
+				49B0A0201C964B8F00FD1F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B0A0241C964B8F00FD1F64 /* PBXTargetDependency */,
+			);
+			name = "UI_24多媒体UITests";
+			productName = "UI_24多媒体UITests";
+			productReference = 49B0A0221C964B8F00FD1F64 /* UI_24多媒体UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B09FF61C964B8E00FD1F64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lanou;
+				TargetAttributes = {
+					49B09FFD1C964B8E00FD1F64 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					49B0A0161C964B8F00FD1F64 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49B09FFD1C964B8E00FD1F64;
+					};
+					49B0A0211C964B8F00FD1F64 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 49B09FFD1C964B8E00FD1F64;
+					};
+				};
+			};
+			buildConfigurationList = 49B09FF91C964B8E00FD1F64 /* Build configuration list for PBXProject "UI_24多媒体" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B09FF51C964B8E00FD1F64;
+			productRefGroup = 49B09FFF1C964B8F00FD1F64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B09FFD1C964B8E00FD1F64 /* UI_24多媒体 */,
+				49B0A0161C964B8F00FD1F64 /* UI_24多媒体Tests */,
+				49B0A0211C964B8F00FD1F64 /* UI_24多媒体UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B09FFC1C964B8E00FD1F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B0A0111C964B8F00FD1F64 /* LaunchScreen.storyboard in Resources */,
+				49B0A00E1C964B8F00FD1F64 /* Assets.xcassets in Resources */,
+				49B0A0351C964C6F00FD1F64 /* 蔡琴 - 爱断情伤.wav in Resources */,
+				49B0A00C1C964B8F00FD1F64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A0151C964B8F00FD1F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A0201C964B8F00FD1F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B09FFA1C964B8E00FD1F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B0A0091C964B8F00FD1F64 /* ViewController.m in Sources */,
+				49B0A0061C964B8F00FD1F64 /* AppDelegate.m in Sources */,
+				49B0A0031C964B8F00FD1F64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A0131C964B8F00FD1F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B0A01C1C964B8F00FD1F64 /* UI_24___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B0A01E1C964B8F00FD1F64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B0A0271C964B8F00FD1F64 /* UI_24___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B0A0191C964B8F00FD1F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B09FFD1C964B8E00FD1F64 /* UI_24多媒体 */;
+			targetProxy = 49B0A0181C964B8F00FD1F64 /* PBXContainerItemProxy */;
+		};
+		49B0A0241C964B8F00FD1F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B09FFD1C964B8E00FD1F64 /* UI_24多媒体 */;
+			targetProxy = 49B0A0231C964B8F00FD1F64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B0A00A1C964B8F00FD1F64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B0A00B1C964B8F00FD1F64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49B0A00F1C964B8F00FD1F64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B0A0101C964B8F00FD1F64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B0A0291C964B8F00FD1F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49B0A02A1C964B8F00FD1F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B0A02C1C964B8F00FD1F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI_24多媒体/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49B0A02D1C964B8F00FD1F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI_24多媒体/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49B0A02F1C964B8F00FD1F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI_24多媒体Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI_24多媒体.app/UI_24多媒体";
+			};
+			name = Debug;
+		};
+		49B0A0301C964B8F00FD1F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI_24多媒体Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI_24多媒体.app/UI_24多媒体";
+			};
+			name = Release;
+		};
+		49B0A0321C964B8F00FD1F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI_24多媒体UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI_24多媒体";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49B0A0331C964B8F00FD1F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI_24多媒体UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI-24---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI_24多媒体";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B09FF91C964B8E00FD1F64 /* Build configuration list for PBXProject "UI_24多媒体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B0A0291C964B8F00FD1F64 /* Debug */,
+				49B0A02A1C964B8F00FD1F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B0A02B1C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B0A02C1C964B8F00FD1F64 /* Debug */,
+				49B0A02D1C964B8F00FD1F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49B0A02E1C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B0A02F1C964B8F00FD1F64 /* Debug */,
+				49B0A0301C964B8F00FD1F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49B0A0311C964B8F00FD1F64 /* Build configuration list for PBXNativeTarget "UI_24多媒体UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B0A0321C964B8F00FD1F64 /* Debug */,
+				49B0A0331C964B8F00FD1F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B09FF61C964B8E00FD1F64 /* Project object */;
+}

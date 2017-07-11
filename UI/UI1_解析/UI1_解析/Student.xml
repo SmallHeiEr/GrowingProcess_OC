@@ -1,0 +1,20 @@
+<students><student><number>1</number><name>曾凯峻</name><sex>男</sex><phone>110</phone>
+    </student>
+    <student>
+        <number>2</number>
+        <name>小芳</name>
+        <sex>女</sex>
+        <phone>120</phone>
+    </student>
+    <student>
+        <number>3</number>
+        <name>王炳权</name>
+        <sex>男</sex>
+        <phone>119</phone>
+    </student>
+</students>
+
+
+
+
+

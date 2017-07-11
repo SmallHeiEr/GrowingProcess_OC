@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<dict>
+			<key>phone</key>
+			<string>13599797191</string>
+			<key>name</key>
+			<string>艾玛</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>安娜</string>
+			<key>phone</key>
+			<string>18241112965</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>安大妈</string>
+			<key>phone</key>
+			<string>11111111111</string>
+		</dict>
+	</array>
+	<key>B</key>
+	<array>
+		<dict>
+			<key>phone</key>
+			<string>15946553232</string>
+			<key>name</key>
+			<string>班长</string>
+		</dict>
+	</array>
+	<key>L</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>龙🐲</string>
+			<key>phone</key>
+			<string>13599797979</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="button" destination="KeR-cT-bLO" id="6ii-jB-Nya"/>
+                <outlet property="topLC" destination="myu-0R-cgQ" id="qQ7-rQ-ABK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNL-Vt-OC6">
+                    <rect key="frame" x="10" y="10" width="394" height="300"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.025587311849999999" green="1" blue="0.93723395460000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="AoX-Hw-Zd9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjl-TB-C5a">
+                    <rect key="frame" x="207" y="330" width="197" height="21"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="0.21377164039999999" blue="0.19058244639999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-cT-bLO">
+                    <rect key="frame" x="102" y="462" width="46" height="30"/>
+                    <animations/>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="lz0-fg-mKO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VNL-Vt-OC6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="0rz-mz-e1B"/>
+                <constraint firstAttribute="trailing" secondItem="VNL-Vt-OC6" secondAttribute="trailing" constant="10" id="888-uP-pdE"/>
+                <constraint firstItem="VNL-Vt-OC6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="O1g-AM-iz1"/>
+                <constraint firstItem="hjl-TB-C5a" firstAttribute="top" secondItem="VNL-Vt-OC6" secondAttribute="bottom" constant="20" id="myu-0R-cgQ"/>
+                <constraint firstItem="hjl-TB-C5a" firstAttribute="trailing" secondItem="VNL-Vt-OC6" secondAttribute="trailing" id="xfA-uy-JG6"/>
+                <constraint firstItem="hjl-TB-C5a" firstAttribute="width" secondItem="VNL-Vt-OC6" secondAttribute="width" multiplier="0.5" id="yRO-z6-iL7"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="297" y="459"/>
+        </view>
+    </objects>
+</document>
