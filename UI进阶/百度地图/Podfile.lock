@@ -1,0 +1,13 @@
+PODS:
+  - BaiduMapKit (2.10.2)
+  - SMS_SDK (1.2.0)
+
+DEPENDENCIES:
+  - BaiduMapKit (~> 2.10.2)
+  - SMS_SDK (~> 1.2.0)
+
+SPEC CHECKSUMS:
+  BaiduMapKit: b1706a062597c70ec62a0cca93212cba1d3017e1
+  SMS_SDK: b25cca6db6063520f7e4f66faa0bc9c13cb58365
+
+COCOAPODS: 0.39.0
