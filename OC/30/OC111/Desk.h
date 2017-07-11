@@ -1,0 +1,17 @@
+//
+//  Desk.h
+//  OC111
+//
+//  Created by dllo on 15/12/31.
+//  Copyright © 2015年 lanou. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface Desk : NSObject
+@property (nonatomic, assign) CGFloat high;
+@property (nonatomic, assign) CGFloat price;
+@property (nonatomic, assign) NSString * colour;
+- (instancetype)initWithHigh:(CGFloat)high price:(CGFloat)price colour:(NSString *)colour;
+
+@end
